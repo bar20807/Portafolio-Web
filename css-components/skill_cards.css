@@ -1,0 +1,23 @@
+
+.tarjeta{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:400px;
+    border: 1px solid lightgray;
+    box-shadow: 4px 4px 14px 8px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.titulo{
+    font-size: 24px;
+}
+.cuerpo{
+    padding: 10px;
+    }
+img{
+    width: 100px;
+}

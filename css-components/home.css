@@ -1,0 +1,64 @@
+/*
+    HEADER STYLES
+*/
+
+
+.header-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu li {
+    float: left;
+}
+
+.header-menu li .Link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+.header-menu li .Link:hover {
+    background-color: grey;
+}
+.content-home .mi_nombre{
+    color: black;
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    padding: auto;
+    font-size: 43px;
+    letter-spacing: 0em;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-home .ocupación{
+    color: black;
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.content-home .circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-home .circulo img {
+    border-radius: 50%;
+    margin-top: 100px;
+    width: 300px;
+}

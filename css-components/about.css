@@ -1,0 +1,15 @@
+.content_about{
+    display: relative;
+}
+
+.content_about .titulo{
+    color: black;
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    padding: auto;
+    font-size: 43px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
