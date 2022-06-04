@@ -1,0 +1,21 @@
+.content-portafolio{
+    display: relative;
+}
+
+.content-portafolio .project_array{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-portafolio .title{
+    color: white;
+    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
+    padding: auto;
+    font-size: 43px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
