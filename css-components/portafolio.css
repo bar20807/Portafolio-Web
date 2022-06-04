@@ -5,7 +5,7 @@
 .content-portafolio .project_array{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .content-portafolio .title{

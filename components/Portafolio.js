@@ -25,6 +25,16 @@ const Portafolio = () => {
             projectImage: "https://www.nicepng.com/png/detail/107-1072883_this-free-icons-png-design-of-simple-maze.png",
             LinkP: "https://github.com/bar20807/Pusitas_Maze"
         },
+        {
+            Title:"Portafolio web",
+            projectImage: "https://ouch-cdn2.icons8.com/sLJuq80ZEhtmrg1KDuY-v1Pn4bgqFmERQooz5f2_lVU/rs:fit:763:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMjk5/L2YzMWQxMjQwLTNj/YWYtNDU2Zi05MGQw/LTFkODdjZGFmOTlk/OS5zdmc.png",
+            LinkP: "https://github.com/bar20807/Portafolio-Web"
+        },
+        {
+            Title:"Movies services project",
+            projectImage: "https://www.pngitem.com/pimgs/m/30-307272_transparent-movie-camera-clipart-movie-camera-logo-png.png",
+            LinkP: "https://github.com/Yong-Park/proyecto2BD"
+        },
     ]
   return (
     <>
