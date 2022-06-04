@@ -2,21 +2,27 @@
     HEADER STYLES
 */
 
+* {
+    margin: 0px;
+}
 
 .header-menu ul {
     list-style-type: none;
+    height: 80px;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 .header-menu li {
     float: left;
+    margin-left: 15px;
 }
+
 
 .header-menu li .Link {
     display: block;
@@ -30,26 +36,6 @@
 .header-menu li .Link:hover {
     background-color: grey;
 }
-.content-home .mi_nombre{
-    color: black;
-    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-    padding: auto;
-    font-size: 43px;
-    letter-spacing: 0em;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-home .ocupación{
-    color: black;
-    font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: auto;
-}
 
 .content-home .circulo{
     display: flex;
@@ -61,4 +47,71 @@
     border-radius: 50%;
     margin-top: 100px;
     width: 300px;
+}
+
+.header-menu .contact img{
+    width: 40px;
+    display: center;
+    justify-content: right;
+    align-content: center;
+}
+
+
+body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgb(255, 255, 255);  margin: 0;}
+
+.content-home{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-home .ocupación {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgb(255, 255, 255);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+    text-align: center;
+	top: 18%;
+	left: 50%;
+	width: 50em;
+	margin: 350px 0 0 -25em;
+    color: white;
+}
+  
+.content-home .mi_nombre{
+    text-align: center;
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
 }

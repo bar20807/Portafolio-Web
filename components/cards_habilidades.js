@@ -4,11 +4,11 @@ import '../css-components/skill_cards.css'
 const SkillCards = ({Title, skillImage}) => {
         return (
           <>
-            <div class="tarjeta">
-            <div class="titulo">{Title}</div>
-            <div class="cuerpo">
-                <img src={skillImage} alt={Title}/>
-            </div>
+            <div className="container">
+              <div className="card">
+                  <h1>{Title}</h1>
+                  <img src={skillImage} alt={Title + "Image"}/>
+              </div>
             </div>
 
           </>

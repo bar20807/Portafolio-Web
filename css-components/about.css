@@ -2,8 +2,15 @@
     display: relative;
 }
 
+.content_about .skill_array{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .content_about .titulo{
-    color: black;
+    color: white;
     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
     padding: auto;
     font-size: 43px;
