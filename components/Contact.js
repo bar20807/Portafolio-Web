@@ -1,49 +1,13 @@
 import React from 'react'
 import '../css-components/contact.css';
-import {Link} from 'react-router-dom';
 
 const ContactMe = () => {
   return (
     <>
-      <header className="header-menu">
-        <ul>
-          <li>
-            <Link to="/home" className="Link">
-              {""}
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/about" className="Link">
-              {""}
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="Link">
-              {""}
-              Contact
-            </Link>
-          </li>
-          <li>
-            <Link to="/portafolio" className="Link">
-              {""}
-              Portafolio
-            </Link>
-          </li>
-          <li className="contact">
-            <a href='https://github.com/bar20807'>
-                <img src='https://img.icons8.com/stickers/344/github.png'/>
-            </a>
-          </li>
-          <li className="contact">
-            <a href='https://wa.me/qr/SFCKMZBGTH3MD1'>
-                <img src='https://img.icons8.com/ultraviolet/344/whatsapp--v1.png'/>
-            </a>
-          </li>
-        </ul>
-      </header>
       <section className="contact-content">
+      <h1 className="titulo">
+          Contactame
+        </h1>
         <div class="contact_form">
           <div class="formulario">
             <h1>Formulario de contacto</h1>
