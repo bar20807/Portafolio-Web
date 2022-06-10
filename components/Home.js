@@ -61,7 +61,7 @@ const Home = () => {
 
       <section className="content-home" id='content_home' >
           <div className="circulo">
-            <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/271042166_3102335493374068_4939890262789910520_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=C1iajJnd1gsAX_pUYgX&_nc_ht=scontent-mia3-2.xx&oh=00_AT88wuVkOvi-JVmYnedQjzd1SjOpo3efp34Gs89yopzZUg&oe=629C5478"/>
+            <img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/271042166_3102335493374068_4939890262789910520_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=IsODQncbUlAAX-8hFm_&_nc_ht=scontent.fgua9-2.fna&oh=00_AT9GZuPpzbhB9T6SyLNg30Hd5JjcOBtIYLrA-VvWILtjGg&oe=62A831F8"/>
           </div>
         <p className="ocupación">
           Third year student in the computer career 
