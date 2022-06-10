@@ -15,7 +15,7 @@ const About = () => {
     },
     {
       Title: "CSharp",
-      skillImage: "https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_original_logo_icon_146578.png"
+      skillImage: "https://iconape.com/wp-content/files/km/370669/svg/c-sharp-logo-icon-png-svg.png"
     },
     {
       Title: "C++",
